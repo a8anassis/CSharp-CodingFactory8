@@ -12,8 +12,6 @@ namespace EurosToDollars
         static void Main(string[] args)
         {
             const decimal RATE = 1.07m;
-            decimal totalCents;
-            decimal totalDollars;
             decimal dollars;
             decimal cents;
 
