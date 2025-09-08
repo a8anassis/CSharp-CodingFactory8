@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadApp", "ReadApp\ReadApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeReadApp", "SafeReadApp\SafeReadApp.csproj", "{770DFBD2-6B76-40B8-B3C3-2FB0C22FD2A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionsApp", "ExpressionsApp\ExpressionsApp.csproj", "{3BC51540-62A6-409E-9C73-7445E4CC7955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EurosToDollars", "EurosToDollars\EurosToDollars.csproj", "{5131F6BE-79AE-4223-A127-ADE293BA8632}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{770DFBD2-6B76-40B8-B3C3-2FB0C22FD2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770DFBD2-6B76-40B8-B3C3-2FB0C22FD2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{770DFBD2-6B76-40B8-B3C3-2FB0C22FD2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC51540-62A6-409E-9C73-7445E4CC7955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC51540-62A6-409E-9C73-7445E4CC7955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC51540-62A6-409E-9C73-7445E4CC7955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC51540-62A6-409E-9C73-7445E4CC7955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5131F6BE-79AE-4223-A127-ADE293BA8632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5131F6BE-79AE-4223-A127-ADE293BA8632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5131F6BE-79AE-4223-A127-ADE293BA8632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5131F6BE-79AE-4223-A127-ADE293BA8632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
