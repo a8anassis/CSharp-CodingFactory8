@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{B68BFC54-33D1-4AE0-8336-D4C11FA55FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteApp", "WriteApp\WriteApp.csproj", "{6D84781C-2E2F-46EA-B677-0688D842B4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadApp", "ReadApp\ReadApp.csproj", "{AD35A4F9-794B-4CD2-B9BC-92D8EF59C593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B68BFC54-33D1-4AE0-8336-D4C11FA55FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B68BFC54-33D1-4AE0-8336-D4C11FA55FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B68BFC54-33D1-4AE0-8336-D4C11FA55FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D84781C-2E2F-46EA-B677-0688D842B4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D84781C-2E2F-46EA-B677-0688D842B4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D84781C-2E2F-46EA-B677-0688D842B4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D84781C-2E2F-46EA-B677-0688D842B4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD35A4F9-794B-4CD2-B9BC-92D8EF59C593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD35A4F9-794B-4CD2-B9BC-92D8EF59C593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD35A4F9-794B-4CD2-B9BC-92D8EF59C593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD35A4F9-794B-4CD2-B9BC-92D8EF59C593}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
