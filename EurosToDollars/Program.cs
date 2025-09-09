@@ -25,7 +25,7 @@ namespace EurosToDollars
             decimal converted = inputEuros * RATE;
 
             // Συνολικά cents (στρογγυλοποίηση για αποφυγή σφαλμάτων)
-            int totalCents = (int)Math.Round(converted * 100, MidpointRounding.AwayFromZero);
+            int totalCents = (int)Math.Round(converted * 100, MidpointRounding.AwayFromZero); // Default MidpointRounding.ToEven
 
             int dollars = totalCents / 100;
             int cents = totalCents % 100;
