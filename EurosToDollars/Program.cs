@@ -12,21 +12,26 @@ namespace EurosToDollars
         static void Main(string[] args)
         {
             const decimal RATE = 1.07m;
-            decimal dollars;
-            decimal cents;
 
             Console.WriteLine("Παρακαλώ εισάγετε το ποσό σε Ευρώ");
-            if (!decimal.TryParse(Console.ReadLine(), out decimal inputEuros)) 
+
+            if (!decimal.TryParse(Console.ReadLine(), out decimal inputEuros))
             {
-                Console.WriteLine("Error in input"); 
+                Console.WriteLine("Error in input");
                 return;
             }
 
-            dollars = inputEuros * RATE;
-            cents = dollars * 100 % 100;
+            // Μετατροπή σε δολάρια
+            decimal converted = inputEuros * RATE;
+
+            // Συνολικά cents (στρογγυλοποίηση για αποφυγή σφαλμάτων)
+            int totalCents = (int)Math.Round(converted * 100, MidpointRounding.AwayFromZero);
+
+            int dollars = totalCents / 100;
+            int cents = totalCents % 100;
 
             Console.OutputEncoding = Encoding.UTF8;
-            Console.WriteLine($"\u20AC {inputEuros:F2} αντιστοιχούν σε \u0024 {Math.Floor(dollars):F0} {cents:F0} cents");
+            Console.WriteLine($"\u20AC {inputEuros:F2} αντιστοιχούν σε \u0024 {dollars} και {cents} cents");
         }
     }
 }
